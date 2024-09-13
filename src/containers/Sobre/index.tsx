@@ -9,7 +9,7 @@ const Sobre = () => (
     <Titulo fontSize={16}>Sobre mim</Titulo>
     <Paragrafo tipo="principal">
       Olá Visitante, me chamo Gabriel Lucas, tenho 20 anos, atualmente sou
-      apenas estudando em ascensão, cursando o ensino superior como Analista e
+      apenas estudante em ascensão, cursando o ensino superior como Analista e
       Desenvolvedor de Sistemas e um curso paralelo profissionalizante de
       Desenvolvedor Fullstack.
     </Paragrafo>
