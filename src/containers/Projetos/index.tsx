@@ -1,5 +1,6 @@
 import Titulo from '../../components/Titulo'
-import Projeto from '../../components/Projeto'
+import DisneyPlus from '../../components/Projeto/DisneyPlus'
+import CadastroAjax from '../../components/Projeto/CadastroAjax'
 
 import { Lista } from './styles'
 
@@ -8,40 +9,10 @@ const Projetos = () => (
     <Titulo fontSize={16}>Projetos</Titulo>
     <Lista>
       <li>
-        <Projeto />
+        <DisneyPlus />
       </li>
       <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
+        <CadastroAjax />
       </li>
     </Lista>
   </section>
