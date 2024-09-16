@@ -5,9 +5,11 @@ import { Card, LinkBotao } from './styles'
 
 const DisneyPlus = () => (
   <Card>
-    <Titulo>Projeto Disney Plus</Titulo>
-    <Paragrafo tipo="secundario">Projeto clone DisneyPlus</Paragrafo>
-    <LinkBotao href="https://github.com/bielrocca/Disney-Plus">
+    <Titulo>Disney Plus</Titulo>
+    <Paragrafo tipo="secundario">
+      Projeto Desenvolvido para fins de treinamento (Clone Disney+)
+    </Paragrafo>
+    <LinkBotao target="_blank" href="https://github.com/bielrocca/Disney-Plus">
       Visualizar
     </LinkBotao>
   </Card>
