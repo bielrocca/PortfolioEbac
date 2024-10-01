@@ -7,6 +7,7 @@ import Calculadora from '../../components/Projeto/Calculadora'
 import ImperiumRocket from '../../components/Projeto/ImperiumRocket'
 
 import { Lista } from './styles'
+import TaskList from '../../components/Projeto/TaskList'
 
 const Projetos = () => (
   <section>
@@ -29,6 +30,9 @@ const Projetos = () => (
       </li>
       <li>
         <ImperiumRocket />
+      </li>
+      <li>
+        <TaskList />
       </li>
     </Lista>
   </section>
